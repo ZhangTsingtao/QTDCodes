@@ -1,0 +1,7 @@
+I utilized C# delegate methods to decouple the project. While quick and practical for small projects, it may not be sufficient for larger ones.
+
+LevelStatus: This component contains all parameters such as lives, money, etc., for the current level.
+
+GameEvents: It serves as the central transfer station for all delegate events.
+
+StatusManager: This module handles the progression of the current level, including determining whether the player has won or lost and deciding whether it's appropriate to release the next round of enemies.

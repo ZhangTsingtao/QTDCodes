@@ -1,0 +1,6 @@
+There are four types of turrets in the game:
+
+1. Bullet Turrets: These turrets shoot bullets and missiles.
+2. Area Damage Turrets: These turrets deal area damage.
+3. Laser Turrets: These turrets fire lasers that cause continuous damage.
+4. Stone Thrower Turrets: These turrets throw stones, which can knock small enemies off the path and instantly kill them.

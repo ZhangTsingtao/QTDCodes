@@ -1,0 +1,8 @@
+I employed interfaces and other script components to implement various functions such as movement, path switching, death handling, slowing, burning, and knocking off the path.
+
+EnemyBase
+
+1. Using NavMesh, goes along a path to the end.
+    Get a new path when it's changed.	
+2. Dies (back to pool)
+3. Other functions: Slow down, get burned, knocked off the route

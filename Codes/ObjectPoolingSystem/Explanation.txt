@@ -1,0 +1,13 @@
+I implemented an Object Pooling system to save computational time. Constantly instantiating and destroying small objects like bullets and enemies is expensive. By using a pooling system, I can reuse a small number of prefabs repeatedly. This approach incurs only minimal additional memory usage but results in significant CPU time savings.
+
+I used the SubPool class to store different types of objects, where one type goes into one SubPool.
+
+I manage all SubPools with the PoolManager.
+
+IPooledObject is an interface for all objects using the pool.
+
+All objects using the pool must have a PooledObjectAttachment to be returned to their SubPool when no longer being used.
+
+PooledFX is a demonstration of using this pooling system.
+
+RoundSpawner spawns all enemies in a round, which can be divided into waves, providing designers with more flexibility.
